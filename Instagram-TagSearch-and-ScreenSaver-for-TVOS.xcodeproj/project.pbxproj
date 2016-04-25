@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335A616E1CCE5DE200F728D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A616D1CCE5DE200F728D3 /* AppDelegate.swift */; };
+		335A61701CCE5DE200F728D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A616F1CCE5DE200F728D3 /* ViewController.swift */; };
+		335A61751CCE5DE200F728D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335A61741CCE5DE200F728D3 /* Assets.xcassets */; };
+		335A617F1CCE5EB700F728D3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A617D1CCE5EB700F728D3 /* DetailView.swift */; };
+		335A61801CCE5EB700F728D3 /* detailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335A617E1CCE5EB700F728D3 /* detailView.xib */; };
+		335A61821CCE5EBF00F728D3 /* GradientMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A61811CCE5EBF00F728D3 /* GradientMaskView.swift */; };
+		335A61841CCE5EC400F728D3 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A61831CCE5EC400F728D3 /* PhotoCell.swift */; };
+		335A61861CCE5ECA00F728D3 /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A61851CCE5ECA00F728D3 /* SlideShowViewController.swift */; };
+		335A61881CCE5EE400F728D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A61871CCE5EE400F728D3 /* Main.storyboard */; };
+		335A618A1CCE5FF100F728D3 /* InstagramObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A61891CCE5FF100F728D3 /* InstagramObject.swift */; };
+		D0230B313CE486826AE6A2A0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0978AABDAEC44E928D681AB /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		335A616A1CCE5DE200F728D3 /* Instagram-TagSearch-and-ScreenSaver-for-TVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram-TagSearch-and-ScreenSaver-for-TVOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335A616D1CCE5DE200F728D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		335A616F1CCE5DE200F728D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		335A61741CCE5DE200F728D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335A61761CCE5DE200F728D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335A617D1CCE5EB700F728D3 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		335A617E1CCE5EB700F728D3 /* detailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailView.xib; sourceTree = "<group>"; };
+		335A61811CCE5EBF00F728D3 /* GradientMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientMaskView.swift; sourceTree = "<group>"; };
+		335A61831CCE5EC400F728D3 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		335A61851CCE5ECA00F728D3 /* SlideShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
+		335A61871CCE5EE400F728D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		335A61891CCE5FF100F728D3 /* InstagramObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramObject.swift; sourceTree = "<group>"; };
+		5A2ECABBAC9AC37BA1AE20CC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		957A588F518B5F3F6C31C965 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D0978AABDAEC44E928D681AB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335A61671CCE5DE200F728D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0230B313CE486826AE6A2A0 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335A61611CCE5DE200F728D3 = {
+			isa = PBXGroup;
+			children = (
+				335A616C1CCE5DE200F728D3 /* Instagram-TagSearch-and-ScreenSaver-for-TVOS */,
+				335A616B1CCE5DE200F728D3 /* Products */,
+				930708B32C1C9E52F73668A0 /* Pods */,
+				77A0D9A8164E386AFA257021 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		335A616B1CCE5DE200F728D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335A616A1CCE5DE200F728D3 /* Instagram-TagSearch-and-ScreenSaver-for-TVOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335A616C1CCE5DE200F728D3 /* Instagram-TagSearch-and-ScreenSaver-for-TVOS */ = {
+			isa = PBXGroup;
+			children = (
+				335A61811CCE5EBF00F728D3 /* GradientMaskView.swift */,
+				335A616D1CCE5DE200F728D3 /* AppDelegate.swift */,
+				335A61831CCE5EC400F728D3 /* PhotoCell.swift */,
+				335A61891CCE5FF100F728D3 /* InstagramObject.swift */,
+				335A61851CCE5ECA00F728D3 /* SlideShowViewController.swift */,
+				335A617C1CCE5EAA00F728D3 /* DetailView */,
+				335A616F1CCE5DE200F728D3 /* ViewController.swift */,
+				335A61871CCE5EE400F728D3 /* Main.storyboard */,
+				335A61741CCE5DE200F728D3 /* Assets.xcassets */,
+				335A61761CCE5DE200F728D3 /* Info.plist */,
+			);
+			path = "Instagram-TagSearch-and-ScreenSaver-for-TVOS";
+			sourceTree = "<group>";
+		};
+		335A617C1CCE5EAA00F728D3 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				335A617D1CCE5EB700F728D3 /* DetailView.swift */,
+				335A617E1CCE5EB700F728D3 /* detailView.xib */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		77A0D9A8164E386AFA257021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0978AABDAEC44E928D681AB /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		930708B32C1C9E52F73668A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A2ECABBAC9AC37BA1AE20CC /* Pods.debug.xcconfig */,
+				957A588F518B5F3F6C31C965 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335A61691CCE5DE200F728D3 /* Instagram-TagSearch-and-ScreenSaver-for-TVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335A61791CCE5DE200F728D3 /* Build configuration list for PBXNativeTarget "Instagram-TagSearch-and-ScreenSaver-for-TVOS" */;
+			buildPhases = (
+				27BE01744DCC8DD1BE447397 /* Check Pods Manifest.lock */,
+				335A61661CCE5DE200F728D3 /* Sources */,
+				335A61671CCE5DE200F728D3 /* Frameworks */,
+				335A61681CCE5DE200F728D3 /* Resources */,
+				2CD1B0510B6D01579C4FB6F5 /* Embed Pods Frameworks */,
+				8FF4669D640601772A77654A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Instagram-TagSearch-and-ScreenSaver-for-TVOS";
+			productName = "Instagram-TagSearch-and-ScreenSaver-for-TVOS";
+			productReference = 335A616A1CCE5DE200F728D3 /* Instagram-TagSearch-and-ScreenSaver-for-TVOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335A61621CCE5DE200F728D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GwiTek;
+				TargetAttributes = {
+					335A61691CCE5DE200F728D3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 335A61651CCE5DE200F728D3 /* Build configuration list for PBXProject "Instagram-TagSearch-and-ScreenSaver-for-TVOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335A61611CCE5DE200F728D3;
+			productRefGroup = 335A616B1CCE5DE200F728D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335A61691CCE5DE200F728D3 /* Instagram-TagSearch-and-ScreenSaver-for-TVOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335A61681CCE5DE200F728D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335A61881CCE5EE400F728D3 /* Main.storyboard in Resources */,
+				335A61751CCE5DE200F728D3 /* Assets.xcassets in Resources */,
+				335A61801CCE5EB700F728D3 /* detailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27BE01744DCC8DD1BE447397 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD1B0510B6D01579C4FB6F5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF4669D640601772A77654A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335A61661CCE5DE200F728D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335A61701CCE5DE200F728D3 /* ViewController.swift in Sources */,
+				335A61841CCE5EC400F728D3 /* PhotoCell.swift in Sources */,
+				335A617F1CCE5EB700F728D3 /* DetailView.swift in Sources */,
+				335A61821CCE5EBF00F728D3 /* GradientMaskView.swift in Sources */,
+				335A616E1CCE5DE200F728D3 /* AppDelegate.swift in Sources */,
+				335A61861CCE5ECA00F728D3 /* SlideShowViewController.swift in Sources */,
+				335A618A1CCE5FF100F728D3 /* InstagramObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		335A61771CCE5DE200F728D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		335A61781CCE5DE200F728D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335A617A1CCE5DE200F728D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2ECABBAC9AC37BA1AE20CC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Instagram-TagSearch-and-ScreenSaver-for-TVOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.gwitek.Instagram-TagSearch-and-ScreenSaver-for-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		335A617B1CCE5DE200F728D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957A588F518B5F3F6C31C965 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Instagram-TagSearch-and-ScreenSaver-for-TVOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.gwitek.Instagram-TagSearch-and-ScreenSaver-for-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335A61651CCE5DE200F728D3 /* Build configuration list for PBXProject "Instagram-TagSearch-and-ScreenSaver-for-TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335A61771CCE5DE200F728D3 /* Debug */,
+				335A61781CCE5DE200F728D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335A61791CCE5DE200F728D3 /* Build configuration list for PBXNativeTarget "Instagram-TagSearch-and-ScreenSaver-for-TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335A617A1CCE5DE200F728D3 /* Debug */,
+				335A617B1CCE5DE200F728D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335A61621CCE5DE200F728D3 /* Project object */;
+}
